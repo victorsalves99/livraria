@@ -25,12 +25,12 @@ const Form = () => {
     formData.append("file", file);
     formData.append("description", description);
     formData.append("size", size);
-    const resp = await axios.post(`http://localhost:8080/book/`, formData);
+    const resp = await axios.post(`http://18.230.74.202:8080/book`, formData);
 
 
     const data = new FormData()
     data.append("file",cover)
-    await axios.patch(`http://localhost:8080/book/cover/${resp.data.book._id}`,data)
+    await axios.patch(`http://18.230.74.202:8080/book/cover/${resp.data.book._id}`,data)
 
     setDescription("");
     setFile("");

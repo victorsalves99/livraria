@@ -17,7 +17,7 @@ const CardBox = ({ title, src, description, cover, size }) => {
     <div className="box-card">
       <Card maxW="sm" height={550}>
         <CardBody>
-          <Image src={`http://localhost:8080/${cover}`}height={300} width={290}/>
+          <Image src={`http://18.230.74.202:8080/${cover}`}height={300} width={290}/>
           <Stack mt="6" spacing="3">
             <Heading size="md">{title}</Heading>
             <Text >{description}</Text>
@@ -27,7 +27,7 @@ const CardBox = ({ title, src, description, cover, size }) => {
         <CardFooter>
           <ButtonGroup spacing="2">
             <Button variant="solid" colorScheme="blue">
-              <a href={`http://localhost:8080/${src}`} download={{title}} target="_blank">
+              <a href={`http://18.230.74.202:8080/book/${src}`} download={{title}} target="_blank">
                 Download
               </a>
             </Button>

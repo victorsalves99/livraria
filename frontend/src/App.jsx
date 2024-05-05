@@ -9,7 +9,7 @@ function App() {
   const [bookList, setBookList] = useState([]);
   const [search, setSearch] = useState();
   const getBooks = async () => {
-    await axios.get("http://localhost:8080/book").then((data) => {
+    await axios.get("http://18.230.74.202:8080/book").then((data) => {
       setBookList(data.data);
     });
   };
