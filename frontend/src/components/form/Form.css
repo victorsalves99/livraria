@@ -1,0 +1,46 @@
+.conteiner-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8a2be2;
+  padding: 30px;
+}
+
+.from-logo {
+  font-size: 2em;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #000, #808080, #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+.form-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.form-register {
+  border: 2px solid #fff;
+  padding: 50px 60px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.btn-register {
+  display: block;
+  font-size: 1.7em;
+  margin: 30px auto -5px auto;
+  cursor: pointer;
+  background-color: #8a2be2;
+  padding: 5px 25px;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn-register:hover {
+  background-color: #892be2bb;
+}

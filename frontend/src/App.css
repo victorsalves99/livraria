@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  height: 100vh;
+  
+}
+.book-box {
+  background-color: #892be218;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 70px 50px;
+  margin: auto;
+  gap: 30px;
+}
