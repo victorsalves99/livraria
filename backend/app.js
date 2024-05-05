@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config()
 
-const port = process.env.PORT || 4000;
+const port = 8080;
 
 const router = require("./routers/bookRoutes");
 
